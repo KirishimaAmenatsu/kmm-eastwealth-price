@@ -3,3 +3,5 @@ stage*/
 *.user
 plugin-config-*/
 discovery-stage-*/
+__pycache__/
+*.py[cod]

@@ -1,0 +1,14 @@
+Source: kmm-eastmoney-price
+Section: kde
+Priority: optional
+Maintainer: KMyMoney EastMoney Plugin contributors <noreply@example.invalid>
+Build-Depends: debhelper-compat (= 13), cmake, g++, qt6-base-dev, libkf6coreaddons-dev, libkf6config-dev, libkf6xmlgui-dev, libalkimia6-dev, libgmp-dev
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: kmm-eastmoney-price
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kmymoney (= ${kmm:Version})
+Description: EastMoney mainland CNY securities price plugin for KMyMoney
+ Native Qt6/KF6 plugin for mainland CNY stocks, indices, ETFs and LOFs.
+ Uses EastMoney securities quotes; does not provide foreign exchange rates.
