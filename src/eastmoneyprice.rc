@@ -1,0 +1,11 @@
+<!DOCTYPE kpartgui>
+<kpartgui name="kmm_eastmoney_price" version="1">
+  <MenuBar>
+    <Menu name="kmmtools">
+      <Separator/>
+      <Action name="eastmoney_configure"/>
+      <Action name="eastmoney_update"/>
+      <Action name="eastmoney_status"/>
+    </Menu>
+  </MenuBar>
+</kpartgui>

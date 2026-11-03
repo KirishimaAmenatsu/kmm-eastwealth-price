@@ -1,0 +1,12 @@
+{
+  "KPlugin": {
+    "Id": "kmm_eastmoney_price",
+    "Name": "EastMoney Securities Prices",
+    "Name[zh_CN]": "东方财富证券报价",
+    "Description": "Explicit mainland CNY securities quotes from EastMoney",
+    "Version": "0.1.0",
+    "License": "GPL-2.0+",
+    "Icon": "view-financial-list",
+    "EnabledByDefault": false
+  }
+}
